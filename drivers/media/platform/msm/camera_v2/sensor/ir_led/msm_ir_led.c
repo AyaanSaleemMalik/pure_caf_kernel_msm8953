@@ -323,20 +323,6 @@ static long msm_ir_led_subdev_do_ioctl(
 		(struct msm_ir_led_cfg_data_t32 *)arg;
 	struct msm_ir_led_cfg_data_t ir_led_data;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-	CDBG("Enter\n");
->>>>>>> d56158b... Revert: Previous changes
-	ir_led_data.cfg_type = u32->cfg_type;
-	ir_led_data.pwm_duty_on_ns = u32->pwm_duty_on_ns;
-	ir_led_data.pwm_period_ns = u32->pwm_period_ns;
-
-<<<<<<< HEAD
-=======
->>>>>>> 2fde63cd0f8b... msm: camera: Reset to LA.UM.5.6.r1-06900-89xx.0
->>>>>>> d56158b... Revert: Previous changes
 	switch (cmd) {
 	case VIDIOC_MSM_IR_LED_CFG32:
 		cmd = VIDIOC_MSM_IR_LED_CFG;
